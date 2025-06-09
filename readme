@@ -1,0 +1,48 @@
+# 💰 FinSight – Personal Finance Tracker
+
+FinSight is a full-stack web application that helps users **track personal expenses**, set **monthly budgets**, and gain **smart spending insights** — all through a clean, modern interface.
+
+---
+
+## ✨ Features
+
+### ✅ Stage 1: Transactions
+- Add, edit, and delete transactions
+- View all transactions in a list
+- Monthly bar chart for total expenses
+- Form validation (amount, date, description)
+
+### ✅ Stage 2: Categories & Dashboard
+- Predefined categories (Food, Rent, Travel, etc.)
+- Pie chart by category
+- Dashboard summary with:
+  - Total monthly expenses
+  - Category breakdown
+  - Recent transactions
+
+### ✅ Stage 3: Budgeting & Insights
+- Set monthly budgets per category
+- Budget vs Actual comparison chart
+- Smart insights:
+  - Over-budget alerts
+  - Top spending category
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend       | Backend         | Database     | Others              |
+|----------------|------------------|--------------|---------------------|
+| Next.js 15     | Next.js API Routes | PostgreSQL (Neon) | Tailwind CSS        |
+| React 19       | Prisma ORM       | Redis (optional) | shadcn/ui & Recharts |
+| TypeScript     |                  |              | React Hook Form, Zod |
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/ManpreetKaur2101/finsight.git
+cd finsight
