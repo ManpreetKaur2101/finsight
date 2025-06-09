@@ -9,8 +9,6 @@ import DashboardStats from './DashboardStats';
 import BudgetForm from './BudgetForm';
 import BudgetChart from './BudgetChart';
 import Insights from './Insights';
-import { PrismaClient } from '@prisma/client';
-const prisma = new PrismaClient();
 
 
 export default function Home() {
