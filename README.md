@@ -1,24 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 FinSight – Personal Finance Tracker
 
-## Getting Started
+FinSight is a full-stack web application that helps users **track personal expenses**, set **monthly budgets**, and gain **smart spending insights** — all through a clean, modern interface.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+### ✅ Stage 1: Transactions
+- Add, edit, and delete transactions
+- View all transactions in a list
+- Monthly bar chart for total expenses
+- Form validation (amount, date, description)
+
+### ✅ Stage 2: Categories & Dashboard
+- Predefined categories (Food, Rent, Travel, etc.)
+- Pie chart by category
+- Dashboard summary with:
+  - Total monthly expenses
+  - Category breakdown
+  - Recent transactions
+
+### ✅ Stage 3: Budgeting & Insights
+- Set monthly budgets per category
+- Budget vs Actual comparison chart
+- Smart insights:
+  - Over-budget alerts
+  - Top spending category
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend       | Backend         | Database     | Others              |
+|----------------|------------------|--------------|---------------------|
+| Next.js 15     | Next.js API Routes | PostgreSQL (Neon) | Tailwind CSS        |
+| React 19       | Prisma ORM       | Redis (optional) | shadcn/ui & Recharts |
+| TypeScript     |                  |              | React Hook Form, Zod |
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the Repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/ManpreetKaur2101/finsight.git
+cd finsight
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
